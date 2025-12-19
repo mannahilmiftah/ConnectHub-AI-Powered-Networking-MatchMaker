@@ -10,8 +10,15 @@ The frontend is being developed using Streamlit, where users will submit their i
 
 Tech Stack: Python, Google ADK, Streamlit, AI Agents.
 
-## Results (watch ConnectHub to see complete backend output)
+## Results
+[▶️ Watch the demo video](https://drive.google.com/file/d/1qoAl-iEO0ZcfuLDSe0huf6sWEo4BqUJq/view?usp=sharing)
 <img width="1285" height="432" alt="image" src="https://github.com/user-attachments/assets/40453f98-d873-488c-b9f6-7118554a16be" />
+
+### Streamlit UI
+<img width="1866" height="958" alt="image" src="https://github.com/user-attachments/assets/ed20c44b-51ef-4f2a-bd92-5330118e0913" />
+<img width="1919" height="851" alt="image" src="https://github.com/user-attachments/assets/9c7fea85-0d8f-43c7-bb3c-eff45c4f12c3" />
+<img width="1903" height="858" alt="image" src="https://github.com/user-attachments/assets/0a078c30-82df-476f-8ff3-a7f36ce32b9e" />
+<img width="1918" height="864" alt="image" src="https://github.com/user-attachments/assets/e901faf4-87da-4ca5-8679-541733f40690" />
 
 ## Steps to implement backend
 
@@ -142,4 +149,15 @@ adk run my_agent
 Type a message like:
 ```text
 Create groups based on similar interets.
+```
+
+## Project Structure
+```text
+ConnectHub-Google ADK-MatchMaker/
+├── my_agent/
+│   ├── __init__.py      # Module init
+│   ├── agent.py         # ADK agent definition
+│   └── .env             # API key (GOOGLE_API_KEY=...)
+├── students.csv         # Workshop attendee data
+└── README.md            # This file
 ```
