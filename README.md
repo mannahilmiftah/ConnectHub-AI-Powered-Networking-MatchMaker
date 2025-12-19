@@ -4,7 +4,7 @@
 An AI-driven networking assistant designed to help attendees at conferences, workshops, and seminars connect more easily. The system collects participant details such as name, email, interests and people they are looking to connect with, and then groups individuals based on shared interests and a user query.
 
 ## Implementation
-The backend is fully implemented using Google ADK, with an AI agent that processes user profiles and a user defined query in order to generate meaningful connection groups. This is tested and functional via terminal.
+The backend is fully implemented using Google ADK, with an AI agent that processes user profiles and a user defined query in order to generate meaningful connection groups. This is tested and functional via CLI.
 
 The frontend is being developed using Streamlit, where users will submit their information, and admins will manage queries and view generated networking groups. Ongoing work includes integrating the Streamlit UI with the AI backend, and preparing the application fot deployment and real-world event usage.
 
@@ -12,6 +12,7 @@ Tech Stack: Python, Google ADK, Streamlit, AI Agents.
 
 ## Results
 [▶️ Watch the demo video](https://drive.google.com/file/d/1qoAl-iEO0ZcfuLDSe0huf6sWEo4BqUJq/view?usp=sharing)
+### CLI Result
 <img width="1285" height="432" alt="image" src="https://github.com/user-attachments/assets/40453f98-d873-488c-b9f6-7118554a16be" />
 
 ### Streamlit UI
